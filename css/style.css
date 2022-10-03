@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400&display=swap');
+
+body{
+
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.car_type{
+    padding:2rem;
+    width: 8.4rem;
+}
+
+.icon{
+    display: block;
+    max-width:2.5rem;
+    max-height:2.5rem;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color:white;
+    font-size: 1.5rem;
+}
+
+p{
+    color:white;
+    font-weight: 200;
+    line-height: 1.1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.6rem;
+}
+
+button{
+    margin-top: 4rem;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 0rem;
+    font-size: 0.55rem;
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 10rem;
+    cursor:pointer;
+}
+.button_luxury{
+    color:hsl(179, 100%, 13%); 
+    font-weight: 700; 
+    transition-duration: 0.2s;
+}
+
+.button_luxury:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+    border: 0.1rem solid white;
+}
+.button_suvs{
+    color:hsl(184, 100%, 22%); 
+    font-weight: 700; 
+    transition-duration: 0.2s;
+}
+
+.button_suvs:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+    border: 0.1rem solid white;
+}
+.button_sedans{
+    color:hsl(31, 77%, 52%); 
+    font-weight: 700; 
+    transition-duration: 0.2s;
+}
+
+.button_sedans:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+    border: 0.1rem solid white;
+}
